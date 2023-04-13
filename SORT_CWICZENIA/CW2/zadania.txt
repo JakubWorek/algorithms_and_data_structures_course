@@ -1,0 +1,32 @@
+1. sortowanie list
+    -scalaie 2 list jednokierunkowych
+    -sortowanie listy przez scalanie serii naturalnych
+        seria naturalna to posortowana część listy
+
+2. inwersja
+    wejście: tablica liczb tablica
+    wyjście: liczba inwersji
+
+    inwersja to para indeksów i,j że i<j oraz T[i]<T[j]
+
+    [2,1] -> 1
+    [3,1,2] -> 2
+    [2,1,4,3] -> 2
+    [3,4,1,2] -> 4
+
+    szukamy nlogn
+
+3. T - posortowana tablica liczb, X - liczba.
+    Sprawdzić czy istnieją indeksy i,j takie, że tj+ti=x
+
+4. Lider ciągu
+    Dana jest tablica liczb T i szukamy elementu, który występuje na liście więcej niż połowę razy
+
+5. Pojemniki z wodą
+    Pojemniki z wodą na różnej wysokości, wlewamy wodę, który się napełni pierwszy objętością A wody.
+    Pytanie: ile pojemników zalanych zostanie w całości
+    pojemnik (x1,y1,x2,y2)
+    dana jest sekwencja pojemników w formie krotek oraz objętość A
+
+6.  Dany jest ciąg przedziałów domkniętych [a1, b1], ..., [an, bn]. Proszę zapropnować algorytm, który
+    znajduje taki przedział [at, bt], w którym w całości zawiera się jak najwięcej innych przedziałów.

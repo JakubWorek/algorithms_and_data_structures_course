@@ -1,0 +1,34 @@
+1. Quicksort z log n pamięcią
+
+2. Quicksort bez rekurencji
+
+3. List-comprehenson w Quicksort
+
+4. Lepsze partition: mediana z pierwszego, środkowego 
+    i ostatniego
+
+5. Wstawianie do kopca
+
+6. Scalanie k posortowanych list
+
+7. Zbudować strukturę, która:
+    insert robi log n
+    del min log n
+    del max robi w log n
+
+    Dwa kopce: min i max
+    połączone krotkami z indeksami w obie strony
+    Kopiec z krotkek (val, ind_min/max)
+    LUB TABLICA NODE-ów z val i node_in_other
+
+8. to co wyżej
+    insert O(log n)
+    del median O(log n)
+
+    Dwa kopce i wgl nie połączone
+
+    kopiec max < mediany, {mediana}, kopiec min > mediany
+
+9. tablica k haotyczna 
+    i zrobić sortowanie jak najszybciej
+    najlepiej nlogk
