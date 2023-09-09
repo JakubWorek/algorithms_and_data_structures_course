@@ -1,0 +1,14 @@
+# Mamy graf skierowany i trzeba znaleźć cykl o minimalnej wadze
+
+# Proszę zaproponować algorytm obliczający domknięcie przechodnie grafu reprezentowanego w postaci
+# macierzowej (domknięcie przechodnie grafu G to taki graf H, że w H mamy krawędź z u do v wtedy
+# i tylko wtedy gdy w G jest ścieżka skierowana z u do v).
+
+# Najlepszy korzeń 
+
+# Dany jest ważony graf pełny (wagi są dodatnie)
+# Technik A ma przenieść materiał z s do taki
+# Technik B na odwrót
+# W trakcie podróży nigdy nie mogą się zbliżyć niż D
+# W pojedynczym kroku moga przejsć po jednej krawędzi
+# Sprawdzić czy istnieje trasa

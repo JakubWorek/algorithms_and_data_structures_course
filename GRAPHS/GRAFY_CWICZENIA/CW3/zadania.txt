@@ -1,0 +1,27 @@
+# Mamy dany graf G = (V, E) z wagami w: E → N-{0} (dodatnie liczby naturalne). Chcemy znalezc scieżkę
+# z wierzchołka u do v tak, by iloczyn wag był minimalny.
+
+# Dana jest mapa kraju w postaci grafu G = (V, E), gdzie wierzchołki to miasta a krawędzie to drogi
+# łączące miasta. Dla każdej drogi znana jest jej długość (wyrażona w kilometrach jako liczba naturalna).
+# Alicja i Bob prowadzą (na zmianę) autobus z miasta x ∈ V do miasta y ∈ V, zamieniając się za kierownicą
+# w każdym kolejnym mieście. Alicja wybiera trasę oraz decyduje, kto prowadzi pierwszy. Proszę zapropnować
+# algorytm, który wskazuje taką trasę (oraz osobę, która ma prowadzić pierwsza), żeby Alicja przejechała
+# jak najmniej kilometrów.
+
+# Dany jest graf G = (V, E), gdzie każda krawędź ma wagę ze zbioru {1, . . . , |E|} (wagi krawędzi są
+# parami różne). Proszę zaproponować algorytm, który dla danych wierzchołków x i y oblicza ścieżkę o
+# najmniejszej sumie wag, która prowadzi z x do y po krawędziach o malejących wagach (jeśli ścieżki
+# nie ma to zwracamy inf).
+
+# Jak znaleźć najkrótsze ścieżki z wierzchołka s do wszystkich innych w acyklicznym grafie skierowanym?
+
+# Pewien podróżnik chce przebyć trasę z punktu A do punktu B. Niestety jego samochód spala dokładnie jeden
+# litr paliwa na jeden kilometr trasy. W baku mieści się dokładnie D litrów paliwa. Trasa jest reprezentowana
+# jako graf, gdzie wierzchołki to miasta a krawędzie to łączące je drogi. Każda krawędź ma długość w
+# kilometrach (przedstawioną jako liczba naturalna). W każdym wierzchołku jest stacja benzynowa, z daną ceną
+# za litr paliwa. Proszę podać algorytm znajdujący trasę z punktu A do punktu B o najmniejszym koszcie.
+
+# Dana jest tabela kursów walut. Dla każdych dwóch walut 'x' oraz 'y' wpis K[x][y] oznacza ile trzeba
+# zapłacić waluty 'x' żeby otrzymać jednostkę waluty 'y'. Proszę zaproponować algorytm, który sprawdza
+# czy istnieje taka waluta 'z', że za jednostkę 'z' można uzyskać więcej niż jednostkę 'z' przez serię
+# wymian walut.

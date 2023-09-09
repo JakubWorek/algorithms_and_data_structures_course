@@ -1,0 +1,42 @@
+1. Zbadaj czy graf jest dwudzielny: reprezentacja macierzowa i bfs
+
+2. Policzyc liczbe spojnych skladowych dfs
+
+3. Usuwanie krawędzi z grafów
+# Znany operator telefonii komórkowej Pause postanowił zakonczyc działalnosc w Polsce. Jednym z głównych
+# elementów całej procedury jest wyłaczenie wszystkich stacji nadawczych (które tworza spójny graf
+# połaczen). Ze wzgledów technologicznych urzadzenia nalezy wyłaczac pojedynczo a operatorowi dodatkowo
+# zalezy na tym, by podczas całego procesu wszyscy abonenci znajdujacy sie w zasiegu działajacych stacji
+# mogli sie ze soba łaczyc (czyli by graf pozostał spójny). Proszę zaproponować algorytm podający
+# kolejność wyłączania stacji.
+# To samo zadanie, tylko inna treść:
+# Dany jest spójny graf nieskierowany G = (V,E). Proszę zaproponować algorytm, który znajdzie taką
+# kolejność usuwania wierzchołków, która powoduje że w trakcie usuwania graf nigdy nie przestaje
+# być spójny (usunięcie wierzchołka usuwa, oczywiście, wszystkie dotykające go krawędzie).
+
+4. Dany graf nieskierowany o n wierzchołkach
+# Dany jest graf nieskierowany G zawierający n wierzchołków. Zaproponuj algorytm, który stwierdza czy
+# w G istnieje cykl składający się z dokładnie 4 wierzchołków. Zakładamy, że graf reprezentowany jest
+# przez macierz sasiedztwa A.
+
+5. Uniwersalne ujscie
+# Mówimy, że wierzchołek t w grafie skierowanym jest uniwersalnym ujściem, jeśli:
+#   (a) z każdego innego wierzchołka v istnieje krawędź z v do t, oraz
+#   (b) nie istnieje żadna krawędź wychodząca z t.
+# Proszę podać algorytm znajdujący uniwersalne ujście (jeśli istnieje) przy reprezentacji macierzowej grafu.
+
+6. Ścieżki w grafie
+# Proszę zaimplementować algorytm BFS tak, żeby znajdował najkrótsze ścieżki w grafie i następnie,
+# żeby dało się wypisać najkrotszą ścieżkę z zadanego punktu startowego do wskazanego wierzchołka.
+
+7. Graf ważony
+# Dany jest graf G =(V, E), gdzie każda krawędź ma wagę ze zbioru {1, . . . , |E|} (wagi krawędzi
+# są parami różne). Proszę zaproponować algorytm, który dla danych wierzchołków x i y sprawdza, czy
+# istnieje ścieżka z x do y, w której przechodzimy po krawędziach o coraz mniejszych wagach.
+
+8. Szachownica
+# Dana jest szachownica o wymiarach n × n. Każde pole (i, j) ma koszt (liczbę ze zbioru {1, ..., 5})
+# umieszczony w tablicy A (na polu A[j][i]). W lewym górnym rogu szachownicy stoi król, którego zadaniem
+# jest przejsc do prawego dolnego rogu, przechodzac po polach o minmalnym sumarycznym koszcie. Prosze
+# zaimplementowac funkcje kings_path(A), która oblicza koszt sciezki króla. Funkcja powinna byc mozliwie
+# jak najszybsza.
