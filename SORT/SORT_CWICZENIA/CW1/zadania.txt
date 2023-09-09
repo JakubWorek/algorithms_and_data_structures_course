@@ -1,0 +1,16 @@
+1. Zaimplementować sortowanie O(n^2)
+
+2. sortowanie listy kierunkowej
+    class Node:
+        def __init__(self, val):
+            self.next = None
+            self.val = val
+    
+    a) wstawianie do posortowanej listy
+    b) wyciąganie największego elementy z listy (nieposortowanej)
+    c) sortowanie listy przez wstawianie lub wybieranie
+
+3. mamy daną tablicę liczb, znaleźć min i max robiąc około 3/2N porównań
+
+4. T - posortowana tablica liczb, X - liczba.
+    Sprawdzić czy istnieją indeksy i,j takie, że tj-ti=x

@@ -1,0 +1,25 @@
+1. Dana jest A rozm n z elementami z zakresu 0-n^2-1
+
+2. Dana jest A rozm n. Elementy z A należą do zbioru B.
+    B jest rozmiaru log n.
+    Posortować A jak najszybciej.
+
+3. Dane są dwa słowa A i B, kazde rozmiaru n nad alfabetem k.
+    Sprawdzić czy A i B są anagramami.
+    1. O(n+k)
+    2. O(n)
+
+4. Eksperyment, ciągi
+
+5. Dana jest tablica A zawierająca n parami różnych liczb.
+    Szukamy x i y takich, że y-x jest jak największa
+    Oraz nie istnieje z taka, że x<z<y O(n)
+
+6. Dana jest tablica A rozmiaru n.
+    Każdy element to jakiś kolor.
+    Mamy k kolorów.
+    Szukamy i,j takich, że A[i]...A[j]
+    zawiera wszystkie kolory i j-i jest najmniejsze.
+
+7. Mamy tablice słów i chcemy posortować w czasie 
+    O(N) gdzie N to suma długości słów
